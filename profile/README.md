@@ -9,30 +9,21 @@ Data pipeline for NYC police accountability.
 
 ## System Architecture
 
-**THOTH** (Python/Playwright) → Scrapes NYPD trials + 50-a.org + NYC Payroll  
-**HERMES** (Bash/PostgreSQL) → ETL pipeline, delta detection, data warehouse  
-**DOGHOUSE_API** (Node.js/Express) → REST middleware with auth & rate limiting  
-**MERCURY** (WordPress/PHP) → Public frontend with search, filters, themes
+**THOTH**        (Python/Playwright) → Scrapes NYPD trials + 50-a.org + NYC Payroll  
+**HERMES**       (Bash/PostgreSQL)   → ETL pipeline, delta detection, data warehouse  
+**DOGHOUSE_API** (Node.js/Express)   → REST middleware with auth & rate limiting  
+**MERCURY**      (WordPress/PHP)     → Public frontend with search, filters, themes
 
 ---
 
 ## Repositories
 
-- [**THOTH**](https://github.com/copwatchdog/THOTH) - Data collection engine (v110)
-- [**HERMES**](https://github.com/copwatchdog/HERMES) - ETL & database (v1.5.0)
+- [**THOTH**](https://github.com/copwatchdog/THOTH)               - Data collection engine (v110)
+- [**HERMES**](https://github.com/copwatchdog/HERMES)             - ETL & database (v1.5.0)
 - [**DOGHOUSE_API**](https://github.com/copwatchdog/DOGHOUSE_API) - REST API (v1.0.0)
-- [**MERCURY**](https://github.com/copwatchdog/MERCURY) - WordPress plugin (v1.6.7)
+- [**MERCURY**](https://github.com/copwatchdog/MERCURY)           - WordPress plugin (v1.6.7)
 
----
-
-## Quick Stats
-
-- **62 officers** tracked (versions 2509-2511)
-- **44 data fields** per officer
-- **12 articles** captured
-- **Production status:** ✅ Live at yumyoda.com
-
----
+--
 
 ## License Restrictions
 
