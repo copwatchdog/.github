@@ -9,19 +9,19 @@ Data pipeline for NYC police accountability.
 
 ## System Architecture
 
-**THOTH**        (Python/Playwright) → Scrapes NYPD trials + 50-a.org + NYC Payroll  (Public)
-**HERMES**       (Bash/PostgreSQL)   → ETL pipeline, delta detection, data warehouse  (Private)
-**CERBERUS_API** (Node.js/Express)   → REST middleware with auth & rate limiting  (Private)
-**MERCURY**      (WordPress/PHP)     → Public frontend with search, filters, themes (Private)
+**THOTH**        (Python/Playwright) → Scrapes NYPD trials + 50-a.org + NYC Payroll  
+**HERMES**       (Bash/PostgreSQL)   → ETL pipeline, delta detection, data warehouse  
+**CERBERUS_API** (Node.js/Express)   → REST middleware with auth & rate limiting  
+**MERCURY**      (WordPress/PHP)     → Public frontend with search, filters, themes  
 
 ---
 
 ## Repositories
 
-- [**THOTH**](https://github.com/copwatchdog/THOTH)               - Data collection engine (v113)
-- [**HERMES**](https://github.com/copwatchdog/HERMES)             - ETL & database (v1.7.0)
-- [**CERBERUS_API**](https://github.com/copwatchdog/CERBERUS_API) - REST API (v2.4.0)
-- [**MERCURY**](https://github.com/copwatchdog/MERCURY)           - WordPress plugin (v2.8.0)
+- [**THOTH**](https://github.com/copwatchdog/THOTH)               - Data collection engine (v113)  (Public)
+- [**HERMES**](https://github.com/copwatchdog/HERMES)             - ETL & database (v1.7.0)  (Private)
+- [**CERBERUS_API**](https://github.com/copwatchdog/CERBERUS_API) - REST API (v2.4.0)  (Private)
+- [**MERCURY**](https://github.com/copwatchdog/MERCURY)           - WordPress plugin (v2.8.0)  (Private)
 
 --
 
