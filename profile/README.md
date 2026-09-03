@@ -18,10 +18,10 @@ Data pipeline for NYC police accountability.
 
 ## Repositories
 
-- [**THOTH**](https://github.com/copwatchdog/THOTH)               - Data collection engine (v113)  (Public)
-- [**HERMES**](https://github.com/copwatchdog/HERMES)             - ETL & database (v1.7.0)  (Private)
-- [**CERBERUS_API**](https://github.com/copwatchdog/CERBERUS_API) - REST API (v2.4.0)  (Private)
-- [**MERCURY**](https://github.com/copwatchdog/MERCURY)           - WordPress plugin (v2.8.0)  (Private)
+- [**THOTH - Data collection engine (v118)  (Public)
+- [**HERMES - ETL & database (v1.10.0)  (Private)
+- [**CERBERUS_API - REST API (v2.8.4)  (Private)
+- [**MERCURY - WordPress plugin (v2.12.10)  (Private)
 
 --
 
